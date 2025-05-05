@@ -22,7 +22,6 @@
       height: 100vh;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       text-align: center;
       padding: 0 20px;
@@ -37,6 +36,14 @@
       width: 64px;
       height: 67px;
       margin-bottom: 36px;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      margin-top: 60px;
     }
     h1 {
       font-size: 2.5rem;
@@ -80,8 +87,8 @@
 </head>
 <body>
   <header>Arvia</header>
-  <img src="./assets/logo.png" alt="Arvia Logo" class="logo" />
   <main>
+    <img src="./assets/logo.png" alt="Arvia Logo" class="logo" />
     <h1>Own your focus.<br />Let Arvia work the noise.</h1>
     <p>Arvia is a proactive AI assistant that curates and summarizes information based on your personal focus areas — so you never miss what matters.</p>
     <button>Join the Waitlist</button>
